@@ -1,0 +1,139 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px 10px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+header h1 {
+  font-size: 3rem; /* smaller than before */
+  font-weight: 700;
+  color: #1877f2;
+}
+
+/* Note text */
+.note {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #555;
+}
+
+/* Main wrapper */
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+/* Signup Section */
+section.Signup {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.Signup h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.subheading {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Inputs */
+.Details input[type="text"],
+.Details input[type="email"],
+.Details input[type="password"],
+.Details input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Gender */
+.gender {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.gender label {
+  flex: 1;
+  background: #f5f6f7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.gender input {
+  margin-right: 5px;
+}
+
+/* Policy text */
+.policy {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 12px 0;
+  text-align: left;
+}
+
+/* Button */
+.Signup button {
+  width: 100%;
+  padding: 12px;
+  background: #42b72a;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Signup button:hover {
+  background: #36a420;
+}
+
+/* Existing account */
+.existing {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.existing a {
+  color: #1877f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.existing a:hover {
+  text-decoration: underline;
+}
